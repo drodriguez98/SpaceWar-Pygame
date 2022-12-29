@@ -286,13 +286,13 @@ def main():
         vidas_nave_amarilla -= 1
         SONIDO_COLISION.play()   
 
-    #   Comprobamos si hay un ganador
+    #   Comprobamos si hay un ganador.
     
     texto_ganador = ""
 
     if vidas_nave_roja <= 0:
 
-      texto_ganador = "Enhorabuena nave amrilla! Has ganado la partida"
+      texto_ganador = "Enhorabuena nave amarilla! Has ganado la partida"
 
     if vidas_nave_amarilla <= 0:
 
