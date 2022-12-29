@@ -1,5 +1,7 @@
 #   https://www.youtube.com/watch?v=w_l9YINjK2I
 
+#   pip install pygame os
+
 import pygame
 import os
 
